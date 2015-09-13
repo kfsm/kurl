@@ -1,0 +1,14 @@
+{application, kurl,
+   [
+      {description, "network i/o utility"},
+      {vsn,         "0.0.0"},
+      {modules,     []},
+      {registered,  []},
+      {applications,[
+         kernel
+        ,stdlib
+        ,knet
+      ]},
+      {env, []}
+   ]
+}.  
